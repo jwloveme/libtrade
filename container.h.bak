@@ -1,0 +1,35 @@
+//
+// Created by kyl on 2019-06-19.
+//
+
+#ifndef LIBTRADE_CONTAINER_H
+#define LIBTRADE_CONTAINER_H
+
+#include <array>
+#include <atomic>
+#include <functional>
+
+#if !defined(_WIN32) && !defined(_WIN64)
+#include <folly/RWSpinLock.h>
+#endif
+
+namespace trade
+{
+    namespace container
+    {
+        template<class T, int N>
+        class FixedArray{
+
+
+
+        };
+
+
+        }
+    }
+
+}
+
+
+
+#endif //LIBTRADE_CONTAINER_H
